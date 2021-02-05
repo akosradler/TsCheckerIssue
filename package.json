@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "TsCheckerIssue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/akosradler/TsCheckerIssue.git",
+  "author": "Akos Radler <akos.radler@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "app",
+    "package"
+  ],
+  "scripts": {
+  	"app": "yarn workspace tschecker-app build",
+  	"package": "yarn workspace tschecker-package build"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "tschecker-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.5",
+    "@babel/preset-typescript": "^7.12.1",
+    "babel-loader": "^8.2.1",
+    "fork-ts-checker-webpack-plugin": "^6.1.0",
+    "fs-extra": "^9.1.0",
+    "tschecker-package": "1.0.0",
+    "typescript": "^4.1.3",
+    "webpack": "^5.20.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
